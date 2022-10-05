@@ -1,0 +1,112 @@
+/* >>>>>>>>>>>>   BASE STYLES <<<<<<<<<<<< */
+
+* {box-sizing: border-box;}
+
+
+html {height: 100vh;}
+
+
+body,
+main,
+li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: top -150px left -180px, right -180px bottom -150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: .1rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+main {
+    padding: 2rem;
+    width: 90%;
+    max-width: 20.9rem;
+    line-height: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 59%);
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+
+img {
+    margin-top: 22%;
+    border: solid 6px white;
+    border-radius: 50%;
+}
+
+
+h1 {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+
+p {
+    font-size: .8rem;
+    letter-spacing: 1.5px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+li {
+    align-self: center;
+    flex: 70px;
+}
+
+
+hr {
+    margin-left: -15%;
+    width: 130%;
+    border: solid 1px grey;
+}
+
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
+
+
+ul li p {margin: 0;}
+
+
+/* >>>>>>>>>>>> CLASS STYLES <<<<<<<<<<<< */
+
+.list {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+
+.age {font-weight: 400;}
+
+
+.city {margin-top: 0;}
+
+/* >>>>>>>>>>>> END OF CSS <<<<<<<<<<<< */
